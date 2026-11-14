@@ -1,0 +1,18 @@
+{
+  "name": "juragan-gatekeeper-agent",
+  "version": "1.0.0",
+  "description": "Proof Gatekeeper agent for zkVerify Agent Games (JURAGAN-1)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node ../tests/harness.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "snarkjs": "^0.7.5"
+  },
+  "private": true
+}
